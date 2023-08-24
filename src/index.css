@@ -334,7 +334,7 @@ main {
 }
 
 .modal {
-    position: absolute;
+    position: fixed;
     background-color: rgb(0 0 0 / 0.92);
     top: 0;
     left: 0;
@@ -365,6 +365,9 @@ main {
 }
 body .modal {
     overflow: hidden;
+    overflow-y: hidden;
+}
+.swipeable-list-item__leading-actions {
 }
 
 .modal .formulario.animar {
